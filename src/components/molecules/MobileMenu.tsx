@@ -27,7 +27,7 @@ export default function MobileMenu({ isOpen, onClose }: Props) {
     <AnimatePresence>
       {isOpen && (
         <>
-          {/* Backdrop */}
+
           <motion.div
             key="backdrop"
             initial={{ opacity: 0 }}
@@ -37,7 +37,6 @@ export default function MobileMenu({ isOpen, onClose }: Props) {
             className="fixed inset-0 z-40 bg-black/50"
           />
 
-          {/* Sliding panel */}
           <motion.aside
             key="panel"
             initial={{ y: -20, opacity: 0 }}

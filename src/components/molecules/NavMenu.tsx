@@ -8,9 +8,9 @@ type NavMenuProps = {
 
 const menuItems = [
   { label: "Home", href: "/" },
-  { label: "About Us", href: "/about" },
-  { label: "Our Service", href: "/services" },
-  { label: "Contact Us", href: "/contact" },
+  { label: "About Us", href: "#about" },
+  { label: "Our Service", href: "#services" },
+  { label: "Contact Us", href: "#contact" },
 ];
 
 export default function NavMenu({ onLinkClick, vertical = false }: NavMenuProps) {

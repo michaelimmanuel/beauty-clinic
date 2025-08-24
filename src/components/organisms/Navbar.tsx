@@ -1,4 +1,3 @@
-// src/components/organisms/Navbar.tsx
 "use client";
 
 import { useEffect, useState } from "react";
@@ -46,7 +45,7 @@ export default function Navbar() {
         className="fixed top-0 left-0 w-full z-[60]"
     >
         <div className="container mx-auto flex items-center justify-between px-6 py-4">
-          <h1 className="text-2xl font-bold text-cream">Beauty Clinic</h1>
+          <h1 className="text-2xl font-bold text-cream">JEEVA</h1>
 
           <div className="hidden md:flex">
             <NavMenu />
